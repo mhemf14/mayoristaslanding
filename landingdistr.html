@@ -32,24 +32,24 @@
         </button>
       </div> 
 <br> <br><br> <br>
-      <div class="card mb-6 mx-auto w-80 card border-light mb-3 " style="max-width: 80%;">
+      <div class="card mb-6 mx-auto w-80 card border-light mb-3 " style="max-width: 80%; background-color:#f3f3f3;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="https://assets.jumpseller.com/store/coppertech1/themes/309605/3%20%281%29.jpg?key=0qf0vm4oxyc742rvohprq3" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
-            <div class="card-body">
+            <div class="card-body"style="background-color:#f3f3f3;">
               <h3 class="card-title sizefont2" >Distribuidores</h3>
               <p class="card-text sizefont">  <p class="sizefont"><strong>¡Únete a la familia Davanti y conviértete en un distribuidor de nuestras exclusivas alfombras vinílicas!</strong></p>
               <p class="sizefont">En Davanti, estamos buscando socios apasionados por la calidad y la innovación en el mundo de las alfombras vinílicas. Nuestra marca se ha destacado por su compromiso con diseños únicos, durabilidad y excelencia en el servicio al cliente. Ahora, te brindamos la oportunidad de formar parte de nuestro éxito.</p>
-              <div class="accordion accordion33" id="accordionExample">
+              <div class="accordion accordion33 " id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       <strong class="asasas"> VER MAS</strong>
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <p class="sizefont">Como distribuidor de Davanti, disfrutarás de una amplia gama de beneficios:</p>
                       <ulclass="sizefont">
@@ -75,10 +75,10 @@
       </div>
       </div>
       <br><br><br><br>
-      <div class="card mb-6 mx-auto w-80 card border-light mb-3" style="max-width: 80%;">
+      <div class="card mb-6 mx-auto w-80 card border-light mb-3 " style="max-width: 80%; background-color:#f3f3f3;">
         <div class="row g-0">
           <div class="col-md-8">
-            <div class="card-body text-start">
+            <div class="card-body text-start "style="background-color:#f3f3f3;">
               <h3 class="card-title sizefont2">Fabrica con Nosotros</h3>
               <p class="card-text"> <p  class="sizefont"><strong>¡Dale vida a tus diseños con nosotros!</strong></p>
 
@@ -86,14 +86,14 @@
           
               <p class="sizefont">Nuestro equipo de expertos en fabricación se enorgullece de ofrecer un proceso de producción de alta calidad y personalizado. Valoramos la creatividad y la innovación, y estamos comprometidos en brindarte las soluciones más eficientes y efectivas para llevar tus diseños del papel a la realidad.</p>
           
-              <div class="accordion accordion34" id="accordionExample">
+              <div class="accordion accordion34 accordion-flush" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       <strong class="asasas"> VER MAS</strong>
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <p class="sizefont">Al elegir trabajar con nosotros, podrás disfrutar de:</p>
                       <ul>
@@ -123,7 +123,7 @@
       </div>
       <br><br><br><br>
 
-      <div class="card mb-6 mx-auto w-80 card border-light mb-3" style="max-width: 80%;">
+      <div class="card mb-6 mx-auto w-80 card border-light mb-3 " style="max-width: 80%;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="https://assets.jumpseller.com/store/coppertech1/themes/309605/5%20%281%29.jpg?key=gmjytfky68uqd88pt02jn" class="img-fluid rounded-start" alt="...">
@@ -144,7 +144,7 @@
                      <strong class="asasas"> VER MAS</strong>
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <p class="sizefont">Al elegir trabajar con nosotros, podrás disfrutar de:</p>
                       <ul>
@@ -188,10 +188,46 @@
         font-size: 12px!important;
         font-family: 'Comfortaa', sans-serif;
         color:#343a40;
+        text-decoration: underline!important;
        }
     
        .carousel slide{
         width: 80%;
+       }
+       .accordion {
+        --bs-accordion-border-width:none!important;
+        background-color:#f3f3f3!important;
+        --bs-accordion-btn-focus-border-color:#f3f3f3!important;
+        --bs-accordion-active-bg:#f3f3f3!important;
+        --bs-accordion-bg:#f3f3f3!important;  
+       }
+       .accordion-button:not(.collapsed) {
+   
+        background-color:#f3f3f3!important;
+    
+       }
+
+       .accordion-button:focus {
+
+    border-color:none!important;
+       }
+       .accordion-button::after {
+        width: 0!important;
+        border-color:#f3f3f3!important;
+       }
+       .accordion-button:not(.collapsed) {
+    color:#f3f3f3!important;
+    border-color:#f3f3f3!important;
+       }
+       .accordion-button:focus {
+   
+    color:#f3f3f3!important;
+    border-color:#f3f3f3!important;
+       }
+       .accordion-item {
+        border: #f3f3f3!important;
+        border-color:#f3f3f3!important;
+
        }
       </style>
 
