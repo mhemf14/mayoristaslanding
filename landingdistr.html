@@ -61,7 +61,12 @@
                           <li class="sizefont">Colaboración con una marca reconocida y respetada en la industria.</li>
                       </ul>
                       <br>
-                      <p class="sizefont">Si compartes nuestra pasión por la excelencia y estás interesado en ser parte de nuestra red de distribuidores, no dudes en <a href="https://mhemf14.github.io/mayoristaslanding/contacto.html">contactarnos</a>. Juntos, podemos llevar la elegancia y la innovación de Davanti a un público más amplio.</p>
+                      <div class="center">
+                        <div class="btn-1">
+                         
+                          <a href="https://mhemf14.github.io/mayoristaslanding/contacto.html"><span>contáctanos</span></a>
+                        </div>
+                    </div>
                      
                     </div>
                   </div>
@@ -109,7 +114,12 @@
                   
                       <p class="sizefont">Nos encantaría ser parte de tu viaje creativo y ayudarte a hacer realidad tus diseños. Si estás listo para dar el siguiente paso o si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros. Esperamos con ansias la oportunidad de colaborar contigo y convertir tus ideas en productos reales que marquen la diferencia.</p>
                   
-                      <p class="sizefont"><strong>¡ <a href="https://mhemf14.github.io/mayoristaslanding/contacto.html">contáctanos</a> hoy mismo y comencemos esta emocionante asociación!</strong></p>
+                      <div class="center">
+                        <div class="btn-1">
+                         
+                          <a href="https://mhemf14.github.io/mayoristaslanding/contacto.html"><span>contáctanos</span></a>
+                        </div>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -162,8 +172,12 @@
                   
                       <p class="sizefont">Estamos emocionados por la posibilidad de ser parte de tu estrategia de regalos corporativos y ayudarte a crear una impresión inolvidable. Si estás listo para dar el siguiente paso o si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros. Esperamos con ansias la oportunidad de colaborar contigo y ayudarte a fortalecer tu presencia de marca.</p>
                   
-                      <p class="sizefont"><strong>¡<a href="https://mhemf14.github.io/mayoristaslanding/contacto.html">contáctanos</a> hoy mismo y comencemos esta emocionante colaboración!</strong></p>
                      
+                      <div class="center">
+                        <div class="btn-1">
+                         
+                          <a href="https://mhemf14.github.io/mayoristaslanding/contacto.html"><span>contáctanos</span></a>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -239,6 +253,131 @@
         border-color:#f3f3f3!important;
 
        }
+
+
+       body {
+  background: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #c2c2c2;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 18vh;
+  font-size: 24px;
+}
+
+.btn-1,
+.btn-2 {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* Created by http://grohit.com/  */
+footer a,
+.btn-1 a,
+.btn-2 a {
+  text-decoration: none;
+  border: 2px solid #010100;
+  padding: 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+span {
+  position: relative;
+  /* z-index coz when we put bg to before and after this span text will not be visible */
+  z-index: 3;
+}
+
+/* Button 1 styles */
+
+.btn-1 a::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  width: calc(100% + 6px);
+  /*100% plus double the times left values*/
+  height: calc(100% - 10px);
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn-1 a:hover::before,
+.btn-2 a:hover::before {
+  transform: scaleY(0);
+}
+
+.btn-1 a::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  width: calc(100% - 10px);
+  /*100% plus double the times left values*/
+  height: calc(100% + 10px);
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+/* Created by http://grohit.com/  */
+
+.btn-1 a:hover::after,
+.btn-2 a:hover::after {
+  transform: scaleX(0);
+}
+
+/* Button 2 styles */
+
+.btn-2 a {
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-2 a:hover {
+  color: #000000;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-2 a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn-2 a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+/* Created by http://grohit.com/  */
+footer{
+    text-align: center;
+  font-size: 10px;
+}
       </style>
 
 
